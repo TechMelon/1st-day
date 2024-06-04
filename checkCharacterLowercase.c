@@ -11,4 +11,5 @@ int main(){
     {
         printf("Character is uppercase.");
     }
+    return 0 ;
 }
