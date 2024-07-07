@@ -5,12 +5,12 @@ int Sum(int a[], int n){
     {
         sum += a[i];
     }
-    printf("%d",sum);
     return sum;
 }
 int main(){
     int n,a[]={1,2,3};
     scanf("%d",&n);
-    Sum(a,n);
+    int sum = Sum(a,n);
+    printf("%d",sum);
     return 0;
 }
