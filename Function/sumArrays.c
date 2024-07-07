@@ -1,5 +1,6 @@
 #include<stdio.h>
-int Sum(int a[], int n,int sum){
+int Sum(int a[], int n){
+    int sum = 0;
     for (int i = 0; i < 3; i++)
     {
         sum += a[i];
@@ -8,8 +9,8 @@ int Sum(int a[], int n,int sum){
     return sum;
 }
 int main(){
-    int n,sum = 0,a[]={1,2,3};
+    int n,a[]={1,2,3};
     scanf("%d",&n);
-    Sum(a,n,sum);
+    Sum(a,n);
     return 0;
 }

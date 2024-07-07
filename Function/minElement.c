@@ -8,11 +8,11 @@ int minElement(int a[]){
             min = a[i];
         }
     }
-    printf("%d",min);
     return min;
 }
 int main(){
     int a[5]={8,6,9,3,2};
-    minElement(a);
+    int Min = minElement(a);
+    printf("%d",Min);
     return 0;
 }

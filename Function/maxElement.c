@@ -9,12 +9,12 @@ int maxOfArr(int a[]){
         }
         
     }
-    printf("%d", max);
     return max;
 }
 
 int main(){
     int a[5] = {3,7,8,5,6};
-    maxOfArr(a);
+    int Max = maxOfArr(a);
+    printf("%d", Max);
     return 0;
 }
